@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0 35px 0 35px;
+    margin: 25px 35px;
 }
 
 footer {
@@ -13,7 +13,7 @@ footer {
     color:ghostwhite;
     padding: 15px 0 15px 0;
     position: auto;
-    margin: 25px 0;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
