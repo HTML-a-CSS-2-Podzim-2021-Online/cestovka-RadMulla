@@ -1,3 +1,19 @@
+@import "uvod.css";
+@import "lastMinuteZajezdy.css";
+@import "novinky.css";
+
+
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0 35px 0 35px;
+}
+
+footer {
+    background-color:dimgrey;
+    color:ghostwhite;
+    padding: 15px 0 15px 0;
+    position: auto;
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
 }
