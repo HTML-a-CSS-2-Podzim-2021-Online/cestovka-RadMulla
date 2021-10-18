@@ -1,0 +1,15 @@
+.kanon {
+    background-image: url(podklady/podkova.jpg);
+    background-repeat: no-repeat;
+}
+
+.ostrov {
+    background-image: url(podklady/zatoka.jpg);
+    background-repeat: no-repeat;
+}
+
+.jezero {
+    background-image: url(podklady/lodicka.jpg);
+    background-repeat: no-repeat;
+
+}
