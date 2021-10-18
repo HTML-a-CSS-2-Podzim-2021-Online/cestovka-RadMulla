@@ -1,6 +1,30 @@
-.nadpis {
+h1 {
     color:orangered;
     font-weight: bold;
-    font-size: large;
+}
+
+.menu {
+    
+}
+
+.pohoda {
+    background-image: url(podklady/palmy.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.klid {
+    background-image: url(podklady/jezero.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.vylet {
+    background-image: url(podklady/nakole.jpg);
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
     
 }
