@@ -1,8 +1,17 @@
-h2 {
-
-}
-
 .clanky {
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
+
+.box {
+    background-color:lightgray;
+    
+    padding: 10px;
+}
+
+.datum {
+    color:gray;
+    font-weight: 800;
+}
+

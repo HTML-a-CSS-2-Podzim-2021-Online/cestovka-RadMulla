@@ -6,6 +6,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 25px 35px;
+    
+}
+
+h4 {
+    color: orangered;
+    font-weight: 900;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 800;
 }
 
 footer {
