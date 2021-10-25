@@ -90,21 +90,22 @@ header button:focus {
     color: white;
     font-weight: 800;
     font-size: 18px;
-    margin: 15px;
+    margin: 110px 0 0 15px;
 }
 
 .nazev-velky {
     color: white;
     font-weight: 800;
     font-size: 25px;
-    margin: 15px;
+    
 }
 
 .popis {
     color: white;
-    margin: 15px;
+    margin: 15px 0 0 0;
+    
 }
 
-.cena {
-    margin: 15px;
+.popis-velky {
+    margin: 260px 0 0 15px;
 }
