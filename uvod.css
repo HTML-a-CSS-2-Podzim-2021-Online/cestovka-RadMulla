@@ -72,15 +72,18 @@ header button:focus {
     
 }
 
-.znacky {
-    object-position: center;
-    
+
+
+
+.znacka-1, .znacka-2, .znacka-3, .znacka-4 {
+    position: auto;
+    margin: 15px 0 15px 0;
+    display: flex;
+    justify-content: center;
 }
 
-.znacky img {
-    
-   
-}
+
+
 
 .uprostred, .stred {
     text-align: center;
