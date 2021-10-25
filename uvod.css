@@ -24,7 +24,7 @@ header button:focus {
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     margin: 20px 0 20px 0;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .pohoda {

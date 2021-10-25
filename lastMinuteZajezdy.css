@@ -4,8 +4,8 @@
     background-size: cover;
     background-position: center center;  
     width: auto;
-   
-    padding: 10px;
+    grid-column: 1;
+    grid-row: 1;
     
 }
 
@@ -15,9 +15,9 @@
     background-size: cover;
     background-position: center center;  
     width: auto;
+    grid-column: 1;
+    grid-row: 2;
     
-    
-    padding: 10px;
 }
 
 .jezero {
@@ -26,18 +26,20 @@
     background-size: cover;
     background-position: center center; 
     width: auto;
-    height: 100%;
-    padding: 10px;
-    margin: 0 0 0 10px;
+    height: auto;
+    grid-column: 2;
+    grid-row: 1 / span 2;
     
 
 }
 
 .zajezdy {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    min-height: 400px;
+    margin: 20px 0 20px 0;
     
 
 
@@ -50,12 +52,4 @@
     padding: 10px;
 }
 
-.zajezd-velky {
-    
- 
-}
-
-.zajezdy-male {
-    
-    gap: 10px;
 }
