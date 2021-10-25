@@ -1,5 +1,5 @@
 
-.menu {
+header {
     display: grid;
     grid-template-columns: 4fr 1fr 1fr 1fr;
 }
@@ -12,16 +12,21 @@ button {
     border-color: transparent;
 }
 
-.menu button:hover,
-.menu button:focus {
+header button:hover,
+header button:focus {
     background-color: orangered;
     color: white;
 }
 
+.tipy {
+    display: grid;
+    
+ }
+
 .pohoda {
     background-image: url(podklady/palmy.jpg);
     background-repeat: no-repeat;   
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     
 }
@@ -29,7 +34,7 @@ button {
 .klid {
     background-image: url(podklady/jezero.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
 
 }
@@ -37,7 +42,7 @@ button {
 .vylet {
     background-image: url(podklady/nakole.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
 }
 
@@ -48,12 +53,39 @@ button {
 
 }
 
-.znacky {
-    position: center;
-}
-
 .box-uvod {
     background-color:lightgray;
     
     padding: 10px;
+    
+}
+
+.znacky {
+    object-position: center;
+    
+}
+
+.znacky img {
+    
+   
+}
+
+.uprostred, .stred {
+    text-align: center;
+}
+
+.nazev {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.nazev-velky {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.popis {
+    color: white;
 }
