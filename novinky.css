@@ -1,15 +1,15 @@
-.clanky {
+.novinky__clanky {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
 }
 
-.box {
+.clanky__box {
     background-color:lightgray;
     padding: 10px;
 }
 
-.datum {
+.clanky--datum {
     color:gray;
     font-weight: 800;
 }

@@ -1,4 +1,13 @@
-.kanon {
+.zajezdy {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    min-height: 400px;
+    margin: 20px 0 20px 0;
+}
+
+.zajezdy__kanon {
     background-image: url(podklady/podkova.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +17,7 @@
     grid-row: 1;
 }
 
-.ostrov {
+.zajezdy__ostrov {
     background-image: url(podklady/zatoka.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +27,7 @@
     grid-row: 2;
 }
 
-.jezero {
+.zajezdy__jezero {
     background-image: url(podklady/lodicka.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,15 +36,6 @@
     height: auto;
     grid-column: 2;
     grid-row: 1 / span 2;
-}
-
-.zajezdy {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    min-height: 400px;
-    margin: 20px 0 20px 0;
 }
 
 .cena {
